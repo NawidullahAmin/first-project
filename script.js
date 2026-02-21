@@ -17,7 +17,7 @@ const runMultiplier = (userInput) => {
             <div class="equal">&equals;</div>
             <div class="output">${i * userInput}</div>
         `;
-        // Add smooth animation to each row
+        // Add smooth animation to each row of the project
         col.style.animationDelay = `${i * 0.2}s`;
         result.appendChild(col);
     }
@@ -34,7 +34,7 @@ btn.addEventListener("click", (e) => {
 
 btn.disabled = true;
 
-// When user presses the ENTER key, the run btn is fired.
+// When a user presses the ENTER key, the run btn is fired.
 userInput.addEventListener("input", () => {
     btn.disabled = !userInput.value;
 });
