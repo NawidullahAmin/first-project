@@ -1,0 +1,3 @@
+# Following files should not be included in commit and public
+secrets.js
+ignoreFiles/
