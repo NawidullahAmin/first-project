@@ -17,8 +17,8 @@ const runMultiplier = (userInput) => {
             <div class="equal">&equals;</div>
             <div class="output">${i * userInput}</div>
         `;
-        // Add smooth animation to each row of the project
-        col.style.animationDelay = `${i * 0.2}s`;
+        // Add smooth animation to each row for the project
+        col.style.animationDelay = `${i * 0.3}s`;
         result.appendChild(col);
     }
 }
