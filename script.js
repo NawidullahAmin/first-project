@@ -34,6 +34,7 @@ btn.addEventListener("click", (e) => {
 
 btn.disabled = true;
 
+// When user presses the ENTER key, the run btn is fired.
 userInput.addEventListener("input", () => {
     btn.disabled = !userInput.value;
 });
